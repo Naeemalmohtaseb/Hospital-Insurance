@@ -1,0 +1,20 @@
+# Ignore ALL data folders
+Data/
+Hospital-Insurance/
+
+# Ignore all data file types
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
