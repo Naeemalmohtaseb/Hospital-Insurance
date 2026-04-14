@@ -1,20 +1,25 @@
-# Ignore ALL data folders
 Data/
 Hospital-Insurance/
 
-# Ignore all data file types
 *.csv
 *.xlsx
 *.xls
 *.parquet
 
-# Jupyter
+outputs/*
+!outputs/**/*.md
+
 .ipynb_checkpoints/
 
-# Python
 __pycache__/
 *.pyc
 
-# OS
+node_modules/
+app/node_modules/
+app/dist/
+app/*.log
+app/*.tsbuildinfo
+
+
 .DS_Store
 Thumbs.db
