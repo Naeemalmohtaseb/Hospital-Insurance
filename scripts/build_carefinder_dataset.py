@@ -15,7 +15,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "Data"
-APP_DATA_DIR = PROJECT_ROOT / "app" / "data"
+APP_DATA_DIR = PROJECT_ROOT / "app" / "public" / "data"
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "carefinder"
 
 PRIMARY_SOURCE_CANDIDATES = (

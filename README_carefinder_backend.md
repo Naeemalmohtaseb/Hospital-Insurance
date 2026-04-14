@@ -37,9 +37,9 @@ The output keeps `estimated_cost_source` and `estimated_cost_source_label` so do
 
 Run outputs are written to:
 
-- `app/data/carefinder_hospital_procedures.csv`
-- `app/data/carefinder_procedures.csv`
-- `app/data/carefinder_hospitals.csv`
+- `app/public/data/carefinder_hospital_procedures.csv`
+- `app/public/data/carefinder_procedures.csv`
+- `app/public/data/carefinder_hospitals.csv`
 - `outputs/carefinder/carefinder_backend_summary.md`
 - `outputs/carefinder/carefinder_source_inventory.csv`
 - `outputs/carefinder/carefinder_source_inventory.md`

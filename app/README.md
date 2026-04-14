@@ -1,14 +1,14 @@
 # CareFinder React Prototype
 
-CareFinder is a single-page React demo that reads the real prepared backend CSV files from `app/data/`.
+CareFinder is a single-page React demo that reads the real prepared backend CSV files from `app/public/data/`.
 
 ## Data Sources
 
-The Vite app is configured with `publicDir: "data"`, so the browser fetches these generated files directly:
+Vite serves files in `public/` from the site root, so the browser fetches these files directly:
 
-- `app/data/carefinder_hospital_procedures.csv`
-- `app/data/carefinder_procedures.csv`
-- `app/data/carefinder_hospitals.csv`
+- `/data/carefinder_hospital_procedures.csv`
+- `/data/carefinder_procedures.csv`
+- `/data/carefinder_hospitals.csv`
 
 No mock records are used.
 

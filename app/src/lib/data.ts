@@ -42,8 +42,8 @@ export type CareFinderData = {
 type CsvRecord = Record<string, string | undefined>;
 
 const DATA_FILES = {
-  hospitalProcedures: `${import.meta.env.BASE_URL}carefinder_hospital_procedures.csv`,
-  procedures: `${import.meta.env.BASE_URL}carefinder_procedures.csv`,
+  hospitalProcedures: "/data/carefinder_hospital_procedures.csv",
+  procedures: "/data/carefinder_procedures.csv",
 };
 
 function pick(row: CsvRecord, aliases: string[]) {

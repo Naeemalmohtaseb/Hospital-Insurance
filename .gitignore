@@ -6,6 +6,10 @@ Hospital-Insurance/
 *.xls
 *.parquet
 
+!app/public/
+!app/public/data/
+!app/public/data/*.csv
+
 outputs/*
 !outputs/**/*.md
 
